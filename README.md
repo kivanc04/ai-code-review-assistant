@@ -14,7 +14,11 @@ A FastAPI-based developer tool that takes a GitHub Pull Request URL, fetches the
 - Health endpoint (`/health`)
 
 ## Tech Stack
-Python, FastAPI, GitHub REST API, OpenAI API, httpx
+- Python
+- FastAPI
+- GitHub REST API
+- OpenAI API
+- httpx
 
 ## Setup
 
@@ -23,5 +27,3 @@ Python, FastAPI, GitHub REST API, OpenAI API, httpx
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
-PR test change
